@@ -1,0 +1,27 @@
+---
+title: "À propos"
+image: "Images/profil2.png"
+about: 
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LikedIn
+      href: https://www.linkedin.com/in/coralie-dore/
+    - icon: github
+      text: GitHub
+      href: https://github.com/cdoreuniv
+    
+#description: "Je me présente"
+draft: true
+---
+## À propos de Coralie DORÉ
+Je m'appelle Coralie DORÉ et j'ai 23 ans. 
+Je suis née en Guadeloupe et ai vécu en Martinique pendant plus de 18 ans. 
+Après ma classe préparatoire MP/MPSI, j'ai décidé de partir en France Hexagonale dans le cadre de la poursuite de mes études.
+
+Par la suite, j'ai suivi une licence 3 *Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales* (MIASHS) doublée d'une première année de Magistère *Statistiques et Modélisation Économique* (SME) à l'Univeristé de Rennes.
+
+
+Actuellement en première année de master ECAP \textsc{Économétrie Appliquée} à l'Université de Nantes, je réalise de nombreux projets et études de cas. 
+
+Dans un peu plus d'un an, mon parcours s'achèvera pour, je le souhaite et le veux, un parcours professionnel rempli d'opportunités et de challenges. 

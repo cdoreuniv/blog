@@ -1,0 +1,73 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Blog personnel"
+  site-url: htpps://www.coraliedorewebsite.fr
+  repo-url: https://github.com/cdoreuniv/myblog
+  navbar:
+    title: false
+    left:
+      - href: index.qmd
+        text: Accueil
+      - text: À propos
+        href: about.qmd
+      - text: Librairies
+        href: posts/post-with-code/index.qmd
+      - text: Curriculum Vitae
+        href: docs/cv/CV_DORE_Coralie(2023).pdf
+      - text: Projets universitaires
+        menu:
+          - text: Modélisation de la propagation de l'épidémie de Dengue en Martinique
+            href: docs/projects/moddengue2020.pdf
+    tools:
+      - icon: linkedin
+        text: LikedIn
+        href: https://www.linkedin.com/in/coralie-dore/
+      - icon: github
+        text: GitHub
+        href: https://github.com/cdoreuniv
+  sidebar:
+    - id: home
+      title: home
+      align: left
+      contents:
+        - index.qmd
+
+    - id: about
+      title: About
+      contents:
+        - about.qmd
+
+    - id: librairies
+      title: Librairies crées
+      contents:
+        - text: Librairie heron
+          href: posts/post-with-code/index.qmd
+
+    - id: cv
+      title: Curriculum Vitae
+      contents:
+        - href: docs/cv/CV_DORE_Coralie(2023).pdf
+
+    - id: projects
+      title: Projets universitaires
+      contents:
+        - text: Modélisation de la propagation de l'épidémie de Dengue en Martinique
+          href: docs/projects/moddengue2020.pdf
+
+#  body-header: |
+#    ![Plage de l'anse Michel](/Images/Banniere1.jpg)
+
+format:
+  html:
+    theme:
+      light: morph
+      dark: solar
+    css: styles.css
+    toc: true
+
+
+
+

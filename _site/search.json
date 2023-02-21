@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog professionnel de Coralie DORÉ",
+    "section": "",
+    "text": "Ce site est le blog professionnel de Coralie DORÉ. Il vise à regrouper toutes les informations relatives à mon parcours universitaire et professionnel. On y retrouvera notamment les projets menés dans le cadre de mes études ainsi que mon CV.\nCe site est créé dans une premier temps, dans le cadre d’un projet en R avancé. C’est la raison pour laquelle il n’est pas très optimal ni très soigné. Toutefois, des améliorations seront apportées au fur à mesure des compétences acquises.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLibrairies\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#librarie-heron",
+    "href": "index.html#librarie-heron",
+    "title": "Blog professionnel de Coralie DORÉ",
+    "section": "Librarie heron",
+    "text": "Librarie heron\nLe package heron contient des fonctions permettant de calculer l’aire d’un triangle. On retrouve ainsi les fonctions :\n\ndemi_perimetre(a,b,c) qui calcule le demi périmètre d’un triangle suivant la formule \\[ p = \\frac{a+b+c}{2}\\] avec \\[\\text{a,b et c} \\in \\mathbf{R}^\\star_+ \\]\nheron2(a,b,c) qui calcule l’aire d’un triangle selon la formule de Heron c’est-à-dire : \\[ \\forall  a,b,c \\in \\mathbf{R}^\\star_+ , \\text{Aire} = \\sqrt{p(p-a)(p-b)(p-c)} \\] La fonction renvoie une erreur si l’un des paramètres est négatif et un avertissement si l’un des paramètre est nul.\n\nOn installe cette librairie depuis GitHub par les commandes suivantes :\n\nremotes::install_github(\"cdoreuniv/heron\")"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Librairies",
+    "section": "",
+    "text": "Le package heron contient des fonctions permettant de calculer l’aire d’un triangle.\nOn retrouve ainsi les fonctions :\n\ndemi_perimetre(a,b,c) qui calcule le demi périmètre d’un triangle suivant la formule \\[ p = \\frac{a+b+c}{2}\\] avec \\[\\text{a,b et c} \\in \\mathbf{R}^\\star_+ \\]\nheron2(a,b,c) qui calcule l’aire d’un triangle selon la formule de Heron c’est-à-dire : \\[ \\forall  a,b,c \\in \\mathbf{R}^\\star_+ , \\text{Aire} = \\sqrt{p(p-a)(p-b)(p-c)} \\] La fonction renvoie une erreur si l’un des paramètres est négatif et un avertissement si l’un des paramètre est nul.\n\nOn installe cette librairie depuis GitHub par les commandes suivantes :\n\nremotes::install_github(\"cdoreuniv/heron\")"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#librarie-heron",
+    "href": "posts/post-with-code/index.html#librarie-heron",
+    "title": "Librairies",
+    "section": "1 Librarie heron",
+    "text": "1 Librarie heron\nLe package heron contient des fonctions permettant de calculer l’aire d’un triangle.\nOn retrouve ainsi les fonctions :\n\ndemi_perimetre(a,b,c) qui calcule le demi périmètre d’un triangle suivant la formule \\[ p = \\frac{a+b+c}{2}\\] avec \\[\\text{a,b et c} \\in \\mathbf{R}^\\star_+ \\]\nheron2(a,b,c) qui calcule l’aire d’un triangle selon la formule de Heron c’est-à-dire : \\[ \\forall  a,b,c \\in \\mathbf{R}^\\star_+ , \\text{Aire} = \\sqrt{p(p-a)(p-b)(p-c)} \\] La fonction renvoie une erreur si l’un des paramètres est négatif et un avertissement si l’un des paramètre est nul.\n\nOn installe cette librairie depuis GitHub par les commandes suivantes :\n\nremotes::install_github(\"cdoreuniv/heron\")"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#librairie-heron",
+    "href": "posts/post-with-code/index.html#librairie-heron",
+    "title": "Librairies",
+    "section": "1 Librairie heron",
+    "text": "1 Librairie heron\nLe package heron contient des fonctions permettant de calculer l’aire d’un triangle.\nOn retrouve ainsi les fonctions :\n\ndemi_perimetre(a,b,c) qui calcule le demi périmètre d’un triangle suivant la formule \\[ p = \\frac{a+b+c}{2}\\] avec \\[\\text{a,b et c} \\in \\mathbf{R}^\\star_+ \\]\nheron2(a,b,c) qui calcule l’aire d’un triangle selon la formule de Heron c’est-à-dire : \\[ \\forall  a,b,c \\in \\mathbf{R}^\\star_+ , \\text{Aire} = \\sqrt{p(p-a)(p-b)(p-c)} \\] La fonction renvoie une erreur si l’un des paramètres est négatif et un avertissement si l’un des paramètre est nul.\n\nOn installe cette librairie depuis GitHub par les commandes suivantes :\n\nremotes::install_github(\"cdoreuniv/heron\")"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#librairie-infotan",
+    "href": "posts/post-with-code/index.html#librairie-infotan",
+    "title": "Librairies",
+    "section": "2 Librairie infotan",
+    "text": "2 Librairie infotan"
+  }
+]

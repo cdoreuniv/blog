@@ -1,0 +1,19 @@
+---
+title: "Blog professionnel de Coralie DORÉ"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  fields: [image, title, author, date]
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+Ce site est le blog professionnel de Coralie DORÉ. Il vise à regrouper toutes les informations relatives à mon parcours universitaire et professionnel. On y retrouvera notamment les projets menés dans le cadre de mes études ainsi que mon CV.
+
+
+Ce site est créé dans une premier temps, dans le cadre d'un projet en R avancé. C'est la raison pour laquelle il n'est pas très optimal ni très soigné. 
+Toutefois, des améliorations seront apportées au fur à mesure des compétences acquises. 

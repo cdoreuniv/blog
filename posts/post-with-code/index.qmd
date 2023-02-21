@@ -1,0 +1,31 @@
+---
+title: "Librairies"
+image: "Images/Librairies.JPG"
+format:
+  html:
+    theme: morph
+    toc: true
+    number-sections: true
+---
+
+## Librairie heron
+Le package `heron` contient des fonctions permettant de calculer l'aire d'un triangle. 
+
+On retrouve ainsi les fonctions :
+
+- `demi_perimetre(a,b,c)` qui calcule le demi périmètre d'un triangle suivant la formule $$ p = \frac{a+b+c}{2}$$ avec $$\text{a,b et c} \in \mathbf{R}^\star_+ $$
+
+
+- `heron2(a,b,c)` qui calcule l'aire d'un triangle selon la formule de **Heron** c'est-à-dire :
+$$ \forall  a,b,c \in \mathbf{R}^\star_+ , \text{Aire} = \sqrt{p(p-a)(p-b)(p-c)} $$ 
+La fonction renvoie une erreur si l'un des paramètres est négatif et un avertissement si l'un des paramètre est nul.
+
+On installe cette librairie depuis **GitHub** par les commandes suivantes : 
+```{r}
+#| label: installation heron depuis GitHub
+#| eval: false
+
+remotes::install_github("cdoreuniv/heron")
+```
+
+## Librairie infotan

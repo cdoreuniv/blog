@@ -4,5 +4,9 @@
     "items": [
       "/posts/post-with-code/index.html"
     ]
+  },
+  {
+    "listing": "/about.html",
+    "items": []
   }
 ]

@@ -28,4 +28,51 @@ On installe cette librairie depuis **GitHub** par les commandes suivantes :
 remotes::install_github("cdoreuniv/heron")
 ```
 
+### Application pour la création de fractales : triangle de Sierpinski
+On utilise la librairie `heron` pour calculer l'aire d'un tel triangle.
+
+```{r}
+#| echo: false
+#| message: false
+
+library(targets)
+#tar_make()
+```
+`
+**Itération 1**
+```{r}
+#| label: iteration 1
+#| echo: false
+tar_read("plot1")
+a1 = round(tar_read("aire1"),2)
+paste("L'aire du triangle à la première itération vaut", a1)
+```
+
+
+**Itération 2**
+```{r}
+#| label: iteration 2
+#| echo: false
+tar_read("plot2")
+a2 = round(tar_read("aire2"),2)
+paste("L'aire du triangle à la seconde itération vaut", a2)
+```
+
+**Itération 3**
+```{r}
+#| label: iteration 3
+#| echo: false
+tar_read("plot3")
+a3 = round(tar_read("aire3"),2)
+paste("L'aire du triangle à la quatrième itération vaut", a3)
+```
+**Itération 4**
+```{r}
+#| label: iteration 4
+#| echo: false
+tar_read("plot4")
+a4 = round(tar_read("aire4"),2)
+paste("L'aire du triangle à la troisième itération vaut", a4)
+```
+
 ## Librairie infotan

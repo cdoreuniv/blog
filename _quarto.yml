@@ -16,11 +16,15 @@ website:
       - text: Librairies
         href: posts/post-with-code/index.qmd
       - text: Curriculum Vitae
-        href: docs/cv/CV_DORE_Coralie(2023).pdf
+        href: docs/posts/cv/CV_DORE_Coralie(2023).pdf
       - text: Projets universitaires
         menu:
           - text: Modélisation de la propagation de l'épidémie de Dengue en Martinique
-            href: docs/projects/moddengue2020.pdf
+            href: docs/posts/projects/moddengue2020.pdf
+          - text: Rapport de stage de l'année de licence 3
+            href: docs/posts/projects/rapportstage2022.pdf
+          - text: Impact socio-économique des grossesses adolescentes dans le monde en 2018
+            href: docs/posts/projects/grosado.pdf
     tools:
       - icon: linkedin
         text: LikedIn

@@ -1,0 +1,16 @@
+---
+title: "Projets universitaires"
+format:
+  html:
+    theme: morph
+    toc: true
+    number-sections: true
+---
+# Modélisation de l'épidémie de dengue en Martinique
+
+Le premier projet que j'ai mené à la suite de mon baccalauréat était dans le cadre du **Travail d'Innitiative Personnelle Encadrée (TIPE)** pour les concours de l'année 2021.
+
+```{r}
+
+```
+

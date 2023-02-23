@@ -1,6 +1,6 @@
 ---
 title: "Librairies"
-image: "Images/Librairies.JPG"
+image: "Images/pano1.png"
 format:
   html:
     theme: morph

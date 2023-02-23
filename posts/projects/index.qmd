@@ -1,6 +1,6 @@
 ---
 title: "Projets universitaires"
-image: "images/paon.png"
+image: "images/Paon.png"
 format:
   html:
     theme: morph
